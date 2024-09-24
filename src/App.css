@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.movieCardContainer{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 60%;
+  max-width: 800px;
+}
+
+.movieCard{
+  display: flex;
+}
+
+.movieInfo{
+  margin-left: 1em;
+  text-align: left;
+}
+
+p{
+  font-size: 18px;
+}
